@@ -43,7 +43,8 @@ o	CSS Score: 3.19
 
 💡 Result
 •	Delivered a comprehensive dashboard that visualizes customer and transaction insights across multiple dimensions.
- •	Identified key growth opportunities: 
+ 
+•	Identified key growth opportunities: 
 o	Promote online usage
 o	Target high-income and business segments  
 o	Focus on regional and age-based campaigns
