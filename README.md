@@ -53,16 +53,24 @@ Banks and financial institutions need to understand what drives **transaction vo
 
 ```
 credit-card-transaction-report/
-├── sql/                      # SQL import scripts
+├── sql/                               # SQL import scripts
 │   └── SQL Query - Financial Dashboard Data.sql
-├── dashboard/                # Power BI dashboards
-│   └── Powerbi.pbix
-├── data/                     # Dataset
-│   └── credit-card-transactions.csv
-├── images/                   # Dashboard previews
-│   └── transaction-dashboard.png
-└── README.md                 # Documentation
-```
+│
+├── dashboard/                         # Power BI source file
+│   └── power_bi.pbix
+│
+├── data/                              # Raw and supporting datasets
+│   ├── cc_add.csv
+│   ├── customer.csv
+│   ├── credit_card.csv
+│   └──cust_add.csv
+│
+├── images/                            # Dashboard preview visuals
+│   ├── Customer Report.png
+│   └── Transactions Report.png
+│
+└── README.md                          # Full project documentation
+
 
 ---
 
@@ -143,8 +151,8 @@ Purpose: *Used by marketing, analytics, and customer engagement teams for target
    git clone https://github.com/swarnali2001/Credit-card-transaction-and-customer-report.git  
    cd Credit-card-transaction-and-customer-report
    ```
-2. Open dataset → `data/credit-card-transactions.csv`
-3. Import into PostgreSQL → `sql/transaction-import.sql`
+2. Open dataset → `data/credit_card.csv`,`data/customer.csv`
+3. Import into PostgreSQL → `sql/SQL Query - Financial Dashboard Data.sql`
 4. View dashboard → `dashboard/credit-card.pbix`
 
 ---
@@ -159,9 +167,4 @@ Purpose: *Used by marketing, analytics, and customer engagement teams for target
 
 ---
 
-If you want next:
-✨ **LinkedIn Post Version**
-📄 **Resume Bullet**
-🎙️ **Interview Pitch (30-60 seconds)**
 
-Just say: **“Make all three.”**
